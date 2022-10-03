@@ -19,7 +19,7 @@ main {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url(./images/bg-intro-desktop.png);
+    background-image: url(bg-intro-desktop.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: hsl(0, 100%, 74%);
