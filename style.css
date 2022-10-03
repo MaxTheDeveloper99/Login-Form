@@ -1,0 +1,105 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-size: 16px;
+}
+
+section {
+    max-width: 100%;
+    width: 50%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(./images/bg-intro-desktop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: hsl(0, 100%, 74%);
+    color: #fff;
+    padding: 0px 160px;
+}
+
+.learn {
+    border-right: 30px;
+}
+
+h1 {
+    font-size: 45px;
+    line-height: 54px;
+    border-bottom: 35px;
+}
+
+.learn p {
+    line-height: 25px;
+    opacity: 0.9;
+    padding-top: 25px;
+    font-size: 18px;
+}
+
+.head {
+    width: 90%;
+    background-color: hsl(248, 32%, 49%);
+    color: #efefef;
+    padding: 15px 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    padding-right: 30px;
+}
+
+.head span {
+    color: #fff;
+    font-weight: 600;
+}
+
+#form {
+    width: 90%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+    border-radius: 8px;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+}
+
+input, button {
+    padding: 17px 25px;
+    margin-bottom: 18px;
+    border-radius: 8px;
+    border: 1px solid #efefef;
+    font-weight: 600;
+}
+
+button {
+    text-transform: uppercase;
+    color: #fff;
+    background-color: hsl(154, 59%, 51%);
+    font-size: 16px;
+}
+
+form p {
+    font-size: 10px;
+    color: hsl(246, 25%, 77%);
+    margin: auto;
+}
+
+form p span {
+    color: hsl(0, 100%, 74%);
+    font-weight: 700;
+}
+input:focus,
+button:focus {
+    outline: none;
+}
